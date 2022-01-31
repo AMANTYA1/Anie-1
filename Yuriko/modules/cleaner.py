@@ -217,21 +217,21 @@ def bluetext_ignore_list(update: Update, context: CallbackContext):
 __help__ = """
 *Blue text cleaner removed any made up commands that people send in your chat.*
 
-✗ /cleanblue - `<on/off/yes/no> clean commands after sending`
+ /cleanblue - `<on/off/yes/no> clean commands after sending`
 
-✗ /ignoreblue - `<word> prevent auto cleaning of the command`
+ /ignoreblue - `<word> prevent auto cleaning of the command`
 
-✗ /unignoreblue - `<word> remove prevent auto cleaning of the command`
+ /unignoreblue - `<word> remove prevent auto cleaning of the command`
 
-✗ /listblue - `list currently whitelisted commands`
+ /listblue - `list currently whitelisted commands`
 
  *Following are Disasters only commands, admins cannot use these:*
 
-✗ /gignoreblue - `<word> globally ignorea bluetext cleaning of saved word across DᴇCᴏᴅᴇ.`
+ /gignoreblue - `<word> globally ignorea bluetext cleaning of saved word across DᴇCᴏᴅᴇ.`
 
-✗ /ungignoreblue - `<word> remove said command from global cleaning list`
+ /ungignoreblue - `<word> remove said command from global cleaning list`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler(
@@ -270,7 +270,7 @@ dispatcher.add_handler(REMOVE_CLEAN_BLUE_TEXT_GLOBAL_HANDLER)
 dispatcher.add_handler(LIST_CLEAN_BLUE_TEXT_HANDLER)
 dispatcher.add_handler(CLEAN_BLUE_TEXT_HANDLER, BLUE_TEXT_CLEAN_GROUP)
 
-__mod_name__ = "Cʟᴇᴀɴᴇʀ"
+__mod_name__ = "CLEANER"
 __handlers__ = [
     SET_CLEAN_BLUE_TEXT_HANDLER,
     ADD_CLEAN_BLUE_TEXT_HANDLER,

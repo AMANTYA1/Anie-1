@@ -548,7 +548,7 @@ def snipe(update: Update, context: CallbackContext):
 __help__ = """
 *User Commands:*
 
-✗ /kickme - `kicks the user who issued the command`
+ /kickme - `kicks the user who issued the command`
 
 *Admins Commands Only:*
 
@@ -573,12 +573,10 @@ __help__ = """
  /zombies - `removes deleted accounts from the group.`
 
  /snipe - `Make me send a message to a specific chat.`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 
-__mod_name__ = "BAN/MUTE"
+__mod_name__ = "Ban"
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban, run_async=True)
 TEMPBAN_HANDLER = CommandHandler(["tban"], temp_ban, run_async=True)

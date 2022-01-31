@@ -501,18 +501,16 @@ __help__ = """
 
 ✗ /resetwarn - `<userhandle> reset the warns for a user. Can also be used as a reply.`
 
-✗ /addwarn - `<keyword> <reply message> set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.`
+ /addwarn - `<keyword> <reply message> set a warning filter on a certain keyword. If you want your keyword to be a sentence, encompass it with quotes, as such: /addwarn "very angry" This is an angry user.`
 
-✗ /nowarn - `<keyword> stop a warning filter`
+ /nowarn - `<keyword> stop a warning filter`
 
-✗ /warnlimit - `<num> set the warning limit`
+ /warnlimit - `<num> set the warning limit`
 
-✗ /strongwarn - `<on/yes/off/no> If set to on, exceeding the warn limit will result in a ban. Else, will just punch.`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+ /strongwarn - `<on/yes/off/no> If set to on, exceeding the warn limit will result in a ban. Else, will just punch.`
 """
 
-__mod_name__ = "Wᴀʀɴɪɴɢ"
+__mod_name__ = "Welcome"
 
 WARN_HANDLER = CommandHandler(["warn", "dwarn"], warn_user, filters=Filters.chat_type.groups, run_async=True)
 RESET_WARN_HANDLER = CommandHandler(

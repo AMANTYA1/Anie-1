@@ -635,11 +635,9 @@ __help__ = """
 *NOTE*: `Filters also support markdown formatters like: {first}, {last} etc.. and buttons.`
 
 `Check /markdownhelp to know more!`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
 
-__mod_name__ = "Fɪʟᴛᴇʀꜱ"
+__mod_name__ = "Filters"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)

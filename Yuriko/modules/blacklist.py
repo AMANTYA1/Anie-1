@@ -450,7 +450,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "Blacklist's"
+__mod_name__ = "Blocklists"
 
 __help__ = """
 
@@ -486,8 +486,6 @@ Admin only:
 Note:
 
  *<sticker link> can be* `https://t.me/addstickers/<sticker>` *or just* `<sticker>` *or reply to the sticker message*
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
     "blacklist",

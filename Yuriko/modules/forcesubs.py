@@ -216,7 +216,5 @@ __help__ = """
 ✗ /fedownerhelp - `Provides help for fed creation and owner only commands`
 ✗ /fedadminhelp - `Provides help for fed administration commands`
 ✗ /feduserhelp - `Provides help for commands anyone can use`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
-__mod_name__ = "Fꜱᴜʙ & Fᴇᴅꜱ"
+__mod_name__ = "FSub & Feds"

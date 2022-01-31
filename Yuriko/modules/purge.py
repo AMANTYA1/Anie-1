@@ -25,7 +25,7 @@ async def purge_messages(event):
         return
 
     if not await can_delete_messages(message=event):
-        await event.reply("Ma na dekha dekh skata 😴")
+        await event.reply("i can't")
         return
 
     reply_msg = await event.get_reply_message()

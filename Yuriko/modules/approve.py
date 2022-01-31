@@ -208,8 +208,6 @@ __help__ = """
  /approved - `List all approved users.`
 
  /unapproveall - `Unapprove `*ALL* `users in a chat. This cannot be undone.`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve, run_async=True)
@@ -228,6 +226,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "APPROVAL"
+__mod_name__ = "Approval"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]

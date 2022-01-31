@@ -190,28 +190,28 @@ def wall(update: Update, context: CallbackContext):
 __help__ = """
 *Available commands:*
 
-❂ /markdownhelp - `quick summary of how markdown works in telegram - can only be called in private chats`
+/markdownhelp - `quick summary of how markdown works in telegram - can only be called in private chats`
 
-❂ /paste - `Saves replied content to `nekobin.com` and replies with a url`
+/paste - `Saves replied content to `nekobin.com` and replies with a url`
 
-❂ /react - `Reacts with a random reaction` 
+/react - `Reacts with a random reaction` 
 
-❂ /ud <word> - `Type the word or expression you want to search use`
+/ud <word> - `Type the word or expression you want to search use`
 
-❂ /reverse - `Does a reverse image search of the media which it was replied to.`
+/reverse - `Does a reverse image search of the media which it was replied to.`
 
 
-❂ /wiki <query> - `wikipedia your query`
+/wiki <query> - `wikipedia your query`
 
-❂ /wall <query> - `get a wallpaper from wall.alphacoders.com`
+/wall <query> - `get a wallpaper from wall.alphacoders.com`
 
-❂ /cash - `currency converter`
+/cash - `currency converter`
 
- Example:
+ *Example:*
 
  `/cash 1 USD INR`  
 
-      _OR_
+      __OR__
 
  `/cash 1 usd inr`
 
@@ -220,13 +220,11 @@ __help__ = """
 
 *Music Modules:*
 
-✗ /video or /vsong (query) - `download video from youtube`
+/video or /vsong (query) - `download video from youtube`
 
-✗ /music or /song (query)- `download song from yt servers. (API BASED)`
+/music or /song (query)- `download song from yt servers. (API BASED)`
 
-✗ /lyrics (song name) - `This plugin searches for song lyrics with song name.`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+/lyrics (song name) - `This plugin searches for song lyrics with song name.`
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler(
@@ -240,7 +238,7 @@ dispatcher.add_handler(MD_HELP_HANDLER)
 dispatcher.add_handler(WIKI_HANDLER)
 dispatcher.add_handler(WALLPAPER_HANDLER)
 
-__mod_name__ = "Exᴛʀᴀꜱ"
+__mod_name__ = "Misc"
 __command_list__ = ["id", "echo", "wiki", "wall"]
 __handlers__ = [
     ECHO_HANDLER,

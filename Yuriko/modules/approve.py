@@ -199,17 +199,17 @@ __help__ = """
 *That's what approvals are for - approve of trustworthy users to allow them to send*
 
 *Admin commands:*
-✗ /approval - `Check a user's approval status in this chat.`
+ /approval - `Check a user's approval status in this chat.`
 
-✗ /approve - `Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.`
+ /approve - `Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.`
 
-✗ /unapprove - `Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.`
+ /unapprove - `Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.`
 
-✗ /approved - `List all approved users.`
+ /approved - `List all approved users.`
 
-✗ /unapproveall - `Unapprove `*ALL* `users in a chat. This cannot be undone.`
+ /unapproveall - `Unapprove `*ALL* `users in a chat. This cannot be undone.`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve, run_async=True)
@@ -228,6 +228,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "Aᴘᴘʀᴏᴠᴀʟ"
+__mod_name__ = "APPROVAL"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]

@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport")]]
+                [[InlineKeyboardButton(text="Support", url="t.me/aniebotsupports")]]
             ),
         )
         
@@ -375,7 +375,7 @@ def yurikorobot_about_callback(update, context):
     if query.data == "yurikorobot_":
         query.message.edit_text(
             text=""" *AnieBot* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            \n`Here the basic help regarding use of AnieBot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -411,7 +411,7 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_donate":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding* *How to use Me?*"
+            text=f"*Anie Donation*"
             
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
@@ -423,12 +423,12 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Paytm", url="t.me/SammyXD"),
-                    InlineKeyboardButton(text="Paypal", url="t.me/SammyXD"),
+                    InlineKeyboardButton(text="Paytm", url="https://p.paytm.me/xCTH/6befd84b"),
+                    InlineKeyboardButton(text="Paypal", url="https://www.paypal.me/mrakki58"),
                  ],
                  [
-                    InlineKeyboardButton(text="Phone pe", url="t.me/SammyXD"),
-                    InlineKeyboardButton(text="UPI", url="t.me/SammyXD"),
+                    InlineKeyboardButton(text="Phone pe", url="https://t.me/AnieDonation/2"),
+                    InlineKeyboardButton(text="Google Pay", url="https://t.me/AnieDonation/6"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_back"),

@@ -922,9 +922,9 @@ def button(update: Update, context: CallbackContext) -> str:
 __help__ = """
 *User Commands*:
 
-✗ /admins - `list of admins in the chat`
+ /admins - `list of admins in the chat`
 
-✗ /pinned - `to get the current pinned message.`
+ /pinned - `to get the current pinned message.`
 
 *The Following Commands are Admins only:* 
 

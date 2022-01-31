@@ -965,8 +965,6 @@ __help__ = """
  /setrules - `<your rules here>  set the rules for this chat.`
 
  /clearrules - `clear the rules for this chat.`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 SET_DESC_HANDLER = CommandHandler("setdesc", set_desc, filters=Filters.chat_type.groups, run_async=True)
@@ -1008,7 +1006,7 @@ dispatcher.add_handler(DEMOTE_HANDLER)
 dispatcher.add_handler(SET_TITLE_HANDLER)
 dispatcher.add_handler(ADMIN_REFRESH_HANDLER)
 
-__mod_name__ = "Aᴅᴍɪɴꜱ"
+__mod_name__ = "Admin"
 __command_list__ = [
     "setdesc"
     "setsticker"

@@ -342,30 +342,30 @@ __help__ = """
 ✗ /8ball - `predicts using 8ball method`
 
 *Animation*
-✗ /love 
-✗ /hack 
-✗ /bombs 
+乂 /love 
+乂 /hack 
+乂 /bombs 
 
 *Shippering*
-✗ /couples - `get couples of today`
+乂 /couples - `get couples of today`
 
 *Here Is The Help For The Styletext Module:*
 
-✗ /weebify - `<text>: weebify your text!`
+乂 /weebify - `<text>: weebify your text!`
 
-✗ /bubble - `<text>: bubble your text!`
+乂 /bubble - `<text>: bubble your text!`
 
-✗ /fbubble - `<text>: bubble-filled your text!`
+乂 /fbubble - `<text>: bubble-filled your text!`
 
-✗ /square - `<text>: square your text!`
+乂 /square - `<text>: square your text!`
 
-✗ /fsquare - `<text>: square-filled your text!`
+乂 /fsquare - `<text>: square-filled your text!`
 
-✗ /blue - `<text>: bluify your text!`
+乂 /blue - `<text>: bluify your text!`
 
-✗ /latin - `<text>: latinify your text!`
+乂 /latin - `<text>: latinify your text!`
 
-✗ /lined - `<text>: lined your text!`
+乂 /lined - `<text>: lined your text!`
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize, run_async=True)

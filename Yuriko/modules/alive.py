@@ -15,7 +15,7 @@ from Yuriko import StartTime, dispatcher
 from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
-""" =======================YURIKO====================== """
+""" =======================ANIE====================== """
 file1 = "https://telegra.ph/file/1ad7188c8390b5c36b9a8.jpg"
 file2 = "https://telegra.ph/file/73fc670e1dc78d1857b67.jpg"
 file3 = "https://telegra.ph/file/4b29739e7fd46b2111e55.jpg"

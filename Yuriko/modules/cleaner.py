@@ -230,8 +230,6 @@ __help__ = """
  /gignoreblue - `<word> globally ignorea bluetext cleaning of saved word across DᴇCᴏᴅᴇ.`
 
  /ungignoreblue - `<word> remove said command from global cleaning list`
-
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: TGN!*
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler(
@@ -270,7 +268,7 @@ dispatcher.add_handler(REMOVE_CLEAN_BLUE_TEXT_GLOBAL_HANDLER)
 dispatcher.add_handler(LIST_CLEAN_BLUE_TEXT_HANDLER)
 dispatcher.add_handler(CLEAN_BLUE_TEXT_HANDLER, BLUE_TEXT_CLEAN_GROUP)
 
-__mod_name__ = "CLEANER"
+__mod_name__ = "Cleaner"
 __handlers__ = [
     SET_CLEAN_BLUE_TEXT_HANDLER,
     ADD_CLEAN_BLUE_TEXT_HANDLER,

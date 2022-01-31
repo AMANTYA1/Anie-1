@@ -335,7 +335,7 @@ def fullpromote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("You don't have access pro"")
+        message.reply_text("You don't have access pro")
         return
 
     user_id = extract_user(message, args)

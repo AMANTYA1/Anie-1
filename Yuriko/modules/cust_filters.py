@@ -607,11 +607,11 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-✗ /filters - `List all active filters saved in the chat.`
+/filters - `List all active filters saved in the chat.`
 
 *Admin Commands Only:*
 
-✗ /filter - `Add a filter to this chat. The bot will now reply that message whenever 'keyword'\`
+/filter - `Add a filter to this chat. The bot will now reply that message whenever 'keyword'\`
 `is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker.`
 
 *NOTE:* `all filter`
@@ -626,11 +626,11 @@ __help__ = """
  %%%
  Reply 3`
 
-✗ /stop - `Stop that filter.`
+/stop - `Stop that filter.`
 
 *Chat Creator Only:*
 
-✗ /removeallfilters - `Remove all chat filters at once.`
+/removeallfilters - `Remove all chat filters at once.`
 
 *NOTE*: `Filters also support markdown formatters like: {first}, {last} etc.. and buttons.`
 

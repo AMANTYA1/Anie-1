@@ -84,8 +84,8 @@ yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-乂 * Hey There My Name Is AnieBot [I](https://telegra.ph/file/8efb6ed44fba36612c23e.jpg) Am Here To Help You Manage Your Groups!*
-乂 * Hit /Help To Find Out More About How To Use Me To My Full Potential!*
+乂 Hey There My Name Is AnieBot [I](https://telegra.ph/file/8efb6ed44fba36612c23e.jpg) Am Here To Help You Manage Your Groups!
+乂 Hit /Help To Find Out More About How To Use Me To My Full Potential!
 ────────────────────────
 × *Ping Time:* `{}`
 × `{}` *User, Database* `{}` *Chats.*
@@ -116,7 +116,7 @@ HELP_STRINGS = """
 乂 /start - `Starts me! Your probably already used this.`
 乂 /help - `Click this I ll let you know about myself!`
 乂 /settings - `in PM: will send you your settings for all supported modules.`
-乂 * Join My [News Channel](t.me/aniebots) To Get Information On All The Latest Updates!*)"""
+乂 * Join My News Channel @AnieBots To Get Information On All The Latest Updates!*)"""
 
 
 

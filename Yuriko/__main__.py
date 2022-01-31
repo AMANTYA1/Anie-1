@@ -84,7 +84,7 @@ yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-乂 * Hey There My Name Is AnieBot I Am Here To Help You Manage Your Groups!*
+乂 * Hey There My Name Is AnieBot [I](https://telegra.ph/file/8efb6ed44fba36612c23e.jpg) Am Here To Help You Manage Your Groups!*
 乂 * Hit /Help To Find Out More About How To Use Me To My Full Potential!*
 ────────────────────────
 × *Ping Time:* `{}`

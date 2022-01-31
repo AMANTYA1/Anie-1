@@ -180,29 +180,29 @@ def config(client, message):
 __help__ = """
 *Force Subscribe:*
 
-✗ `Yuriko can mute members who are not subscribed your channel until they subscribe`
+`Yuriko can mute members who are not subscribed your channel until they subscribe`
 
-✗ `When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them`
+`When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them`
 
 *Setup*
 
 *Only creator*
 
-✗ `Add me in your group as admin`
+`Add me in your group as admin`
 
-✗ `Add me in your channel as admin`
+`Add me in your channel as admin`
  
 *Commmands*
-✗ /fsub `{channel username} To turn on and setup the channel.`
+/fsub `{channel username} To turn on and setup the channel.`
 
   💡*Do this first...*
 
-✗ /fsub - `To get the current settings.`
-✗ /fsub - `disable To turn of ForceSubscribe..`
+/fsub - `To get the current settings.`
+/fsub - `disable To turn of ForceSubscribe..`
 
   💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
 
-✗ /fsub clear - `To unmute all members who muted by me.`
+/fsub clear - `To unmute all members who muted by me.`
 
 *Federation*
 `Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.`
@@ -213,8 +213,8 @@ __help__ = """
 *Commands:*
 
 `Feds are now divided into 3 sections for your ease.`
-✗ /fedownerhelp - `Provides help for fed creation and owner only commands`
-✗ /fedadminhelp - `Provides help for fed administration commands`
-✗ /feduserhelp - `Provides help for commands anyone can use`
+/fedownerhelp - `Provides help for fed creation and owner only commands`
+/fedadminhelp - `Provides help for fed administration commands`
+/feduserhelp - `Provides help for commands anyone can use`
 """
-__mod_name__ = "FSub & Feds"
+__mod_name__ = "Federations"

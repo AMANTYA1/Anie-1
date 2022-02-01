@@ -84,19 +84,19 @@ yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-`Hey There My Name Is` *AnieBot* [I](https://telegra.ph/file/8efb6ed44fba36612c23e.jpg) `Am Here To Help You Manage Your Groups!`
+`Hey There My Name Is` *YumiXBot* [I](https://telegra.ph/file/8efb6ed44fba36612c23e.jpg) `Am Here To Help You Manage Your Groups!`
 `Hit` /Help `To Find Out More About How To Use Me To My Full Potential!`
 ────────────────────────
 乂 *Ping Time:* `{}`
 乂 `{}` *User, Database* `{}` *Chats.*
 ────────────────────────
-*Powered By: @OfficialShield*
+*Powered By: @YumiXSupport*
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ!", url="http://t.me/YurikoRobot?startgroup=true"),
+            text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ!", url="http://t.me/YumiXBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Dᴏɴᴀᴛᴇ Mᴇ", callback_data="yurikorobot_donate"),
@@ -116,12 +116,12 @@ HELP_STRINGS = """
 /start - `Starts me! Your probably already used this.`
 /help - `Click this I ll let you know about myself!`
 /settings - `in PM: will send you your settings for all supported modules.`
-* Join My News Channel @AnieBots To Get Information On All The Latest Updates!*)"""
+* Join My News Channel @YumiXUpdate To Get Information On All The Latest Updates!*)"""
 
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @GodFatherAkki's 🔥"""
+ @YumiXUpdate's 🔥"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Support", url="t.me/aniebotsupports")]]
+                [[InlineKeyboardButton(text="Support", url="t.me/YumiXSupport")]]
             ),
         )
         
@@ -374,7 +374,7 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *AnieBot* - `A bot to manage your groups with additional features!`
+            text=""" *YumiXBot* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of AnieBot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
@@ -385,10 +385,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/AniebotSupports"
+                            text="Support", url="t.me/YumiXSupport"
                         ),
                         InlineKeyboardButton(
-                            text="Channel", url="https://t.me/Aniebots"
+                            text="Channel", url="https://t.me/YumiXUpdate"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -411,29 +411,24 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_donate":
         query.message.edit_text(
-            text=f"*Anie Donation*"
+            text=""" *YumiXBot* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of YumiXBot.`
             
-            f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
-            f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@YurikoRobot` `in that chat to refresh admin list in My database.`\n"
-            f"\n\n*All done now use below given button's to know about use!*\n"
-            f"",
+            \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
+            \n`Report error/bugs click the Button`""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                 [
-                    InlineKeyboardButton(text="Paytm", url="https://p.paytm.me/xCTH/6befd84b"),
-                    InlineKeyboardButton(text="Paypal", url="https://www.paypal.me/mrakki58"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Phone pe", url="https://t.me/AnieDonation/2"),
-                    InlineKeyboardButton(text="Google Pay", url="https://t.me/AnieDonation/6"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_back"),
-                 
-                 ]
+                    [
+                        InlineKeyboardButton(
+                            text="Bugs", url="t.me/YumiXSupport"
+                        ),
+                        InlineKeyboardButton(
+                            text="News", url="https://t.me/YumiXUpdate"
+                        ),
+                    ],
+                    [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
                 ]
             ),
         )
@@ -443,8 +438,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *AnieBot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/FriDayXD/Yuriko) .""",
+            text=""" Hi..😻 I'm *YumiXBot*
+                 \nHere is the [🔥Source Code🔥](https://github.com/Yumi) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

@@ -539,47 +539,47 @@ def __user_info__(user_id):
 
 __help__ = """
 *ID:*
-乂 /id - `get the current group id. If used by replying to a message, gets that user's id.`
+/id - `get the current group id. If used by replying to a message, gets that user's id.`
 
-乂 /gifid - `reply to a gif to me to tell you its file ID.`
+/gifid - `reply to a gif to me to tell you its file ID.`
  
 *Self addded information:* 
 
-乂 /setme - `<text> will set your info.`
+/setme - `<text> will set your info.`
 
-乂 /me - `will get your or another user's info.`
+/me - `will get your or another user's info.`
 
 Examples:
 
-乂 /setme - `I am a` *DᴇCᴏᴅᴇ* `Member.`
+/setme - `I am a` *TGN* `Member.`
 
-✗ /me - `@username(defaults to yours if no user specified)`
+/me - `@username(defaults to yours if no user specified)`
  
 *Information others add on you:* 
 
-乂 /bio - `will get your or another user's bio. This cannot be set by yourself.`
+/bio - `will get your or another user's bio. This cannot be set by yourself.`
 
-乂 /setbio - `<text> while replying, will save another user's bio`
+/setbio - `<text> while replying, will save another user's bio`
 
 *Examples:*
 
-乂 /bio - `@username(defaults to yours if not specified).`
+/bio - `@username(defaults to yours if not specified).`
 
-✗ /setbio - `This user is a` *DᴇCᴏᴅᴇ* `Member (reply to the user)`
+/setbio - `This user is a` *DᴇCᴏᴅᴇ* `Member (reply to the user)`
  
 *Overall Information about you:*
 
-乂 /info - `get information about a user.`
+/info - `get information about a user.`
  
 *json Detailed info:*
 
-乂 /json - `Get Detailed info about any message.`
+/json - `Get Detailed info about any message.`
  
 *AFk:*
 
 `When marked as AFK, any mentions will be replied to with a message stating that you're not available!`
 
-乂 /afk - `<reason> Mark yourself as AFK.`
+/afk - `<reason> Mark yourself as AFK.`
 
   brb - `<reason> Same as the afk command, but not a command.` 
 
@@ -606,7 +606,7 @@ dispatcher.add_handler(GET_BIO_HANDLER)
 dispatcher.add_handler(SET_ABOUT_HANDLER)
 dispatcher.add_handler(GET_ABOUT_HANDLER)
 
-__mod_name__ = "Info & Afk"
+__mod_name__ = "Info"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER,

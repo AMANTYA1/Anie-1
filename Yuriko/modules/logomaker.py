@@ -208,15 +208,15 @@ async def logo_(event):
             os.remove(font_)
 
 
-__mod_name__ = "Logomaker"
+__mod_name__ = "Logos"
 
 __help__ = """
 
-乂 /logo - `<text/name> Create a logo with random view.`
+/logo - `<text/name> Create a logo with random view.`
 
-乂 /wlogo - `<text/name> Create a logo with wide view only.`
+/wlogo - `<text/name> Create a logo with wide view only.`
 
  *Image Editor :*
 
-乂  /edit - `<reply photo> to edit image.`
+/edit - `<reply photo> to edit image.`
 """

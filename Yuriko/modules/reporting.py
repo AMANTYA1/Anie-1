@@ -265,14 +265,14 @@ def buttons(update: Update, context: CallbackContext):
 
 
 __help__ = """
-✗ /report - `<reason> reply to a message to report it to admins.`
+/report - `<reason> reply to a message to report it to admins.`
 
-✗ @admin - `reply to a message to report it to admins.`
+@admin - `reply to a message to report it to admins.`
 
 *NOTE:* `Neither of these will get triggered if used by admins.`
 
 *Admins only:*
-✗ /reports - `<on/off> change report setting or view current status.`
+/reports - `<on/off> change report setting or view current status.`
 `If done in pm toggles your status.`
 `If in group toggles that groups status.`
 """
@@ -293,7 +293,7 @@ dispatcher.add_handler(SETTING_HANDLER)
 dispatcher.add_handler(REPORT_HANDLER, REPORT_GROUP)
 dispatcher.add_handler(ADMIN_REPORT_HANDLER, REPORT_GROUP)
 
-__mod_name__ = "Rᴇᴘᴏʀᴛ"
+__mod_name__ = "Reports"
 __handlers__ = [
     (REPORT_HANDLER, REPORT_GROUP),
     (ADMIN_REPORT_HANDLER, REPORT_GROUP),

@@ -23,7 +23,7 @@ file4 = "https://telegra.ph/file/956b7a50ec1f0a9802b8b.jpg"
 file5 = "https://telegra.ph/file/2fdff4fc6f3e015eb9a51.jpg"
 """ =======================YURIKO====================== """
 
-BUTTON = [[Button.url("Support", "https://t.me/Aniebotsupports"), Button.url("Updates", "https://t.me/AnieBots")]]
+BUTTON = [[Button.url("Support", "https://t.me/YumiXSupport"), Button.url("Updates", "https://t.me/YumiXUpdate")]]
 
 
 START_TIME = datetime.utcnow()
@@ -54,11 +54,11 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    pm_caption = "** 乂 I,m AnieBot **\n\n"
+    pm_caption = "** 乂 I,m YumiXBot **\n\n"
     pm_caption += f"**乂 My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**乂 Telethon Version :** `{version.__version__}`\n\n"
-    pm_caption += "**乂 My Team :** @OfficialShield\n"
-    BUTTON = [[Button.url("Support", "https://t.me/AnieBotSupports"), Button.url("Updates", "https://t.me/AnieBots")]]
+    pm_caption += "**乂 My Team :** @YumiXUpDate\n"
+    BUTTON = [[Button.url("Support", "https://t.me/YumixSupport"), Button.url("Updates", "https://t.me/YumiXUpdate")]]
     on = await aasf.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
 

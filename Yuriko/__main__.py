@@ -99,7 +99,7 @@ buttons = [
             text="Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ!", url="http://t.me/YumiXBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Dᴏɴᴀᴛᴇ Mᴇ", callback_data="yurikorobot_donate"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/YumiXSupport"),
         InlineKeyboardButton(
             text="Iɴꜰᴏʀᴍᴀᴛɪᴏɴ", callback_data="yurikorobot_"
         ),

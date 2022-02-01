@@ -18,23 +18,23 @@ __help__ = """
 Use this module to translate stuff!
 *Commands:*
 
-乂 /tl - `(or /tr) as a reply to a message, translates it to English.`
+/tl - `(or /tr) as a reply to a message, translates it to English.`
 
-乂 /tl - `<lang>: translates to <lang>`
+/tl - `<lang>: translates to <lang>`
 
-乂 /tl ja - `translates to Japanese.`
+/tl ja - `translates to Japanese.`
 
-乂 /tl - `<source>//<dest> translates from <source> to <lang>.`
+/tl - `<source>//<dest> translates from <source> to <lang>.`
 
-乂 /tl - `ja//en translates from Japanese to English.`
+/tl - `ja//en translates from Japanese to English.`
 
-乂 /langs - `get a list of supported languages for translation.`
+/langs - `get a list of supported languages for translation.`
 
 `I can convert text to voice and voice to text..`
 
-乂 /tts - `<lang code> Reply to any message to get text to speech output`
+/tts - `<lang code> Reply to any message to get text to speech output`
 
-乂 /stt - `Type in reply to a voice message(support english only) to extract text from it.`
+/stt - `Type in reply to a voice message(support english only) to extract text from it.`
 
 *Language Codes*
 
@@ -46,7 +46,7 @@ sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 """
 
-__mod_name__ = "Translater"
+__mod_name__ = "Languages"
 
 
 trans = Translator()

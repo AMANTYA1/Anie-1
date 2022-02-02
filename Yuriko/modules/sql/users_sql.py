@@ -2,6 +2,7 @@ import threading
 
 from Yuriko import dispatcher
 from Yuriko.modules.sql import BASE, SESSION
+from Yuriko import pbot as bot
 from sqlalchemy import (
     Column,
     ForeignKey,

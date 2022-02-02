@@ -1,6 +1,3 @@
-odmantic
-
-#Old
 future
 emoji
 lxml
@@ -9,7 +6,7 @@ gtts
 beautifulsoup4
 requests
 python-telegram-bot==13.10.0
-sqlalchemy==1.4.31
+SQLAlchemy==1.4.29
 psycopg2-binary
 feedparser
 faker
@@ -45,11 +42,11 @@ cachetools
 ujson
 pretty_errors
 pygithub
-TgCrypto==1.2.3
-Pyrogram==1.3.6
+TgCrypto
+pyrogram==1.3.5
 PyDictionary
 git+https://github.com/Sorrybabe/downloader
-youtube_search_python
+youtube_search_python==1.4.9
 youtube_search
 lyrics_extractor
 asyncio
@@ -75,14 +72,14 @@ envparse
 #profanity (Credits to Julia)
 better_profanity
 textblob 
+nudepy
 nekos.py
-motor>=2.1.0,<2.6.0
+motor
 gpytranslate
 fontTools
 opencv-python-headless
 odmantic
 tzlocal
-nudepy
 pendulum
 fuzzysearch
 img2pdf

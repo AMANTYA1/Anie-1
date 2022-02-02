@@ -14,7 +14,8 @@ from sqlalchemy import (
     func,
 )
 from sqlalchemy.sql.sqltypes import BigInteger
-
+BOT_ID = 5270575941
+BOT_USERNAME = 'YumiXBot'
 
 class Users(BASE):
     __tablename__ = "users"
@@ -80,7 +81,7 @@ INSERTION_LOCK = threading.RLock()
 
 def ensure_bot_in_db():
     with INSERTION_LOCK:
-        bot = Users(pbot.bot.id, pbot.bot.username)
+        bot = Users({BOT_ID}, {BOT_USERNAME})
         SESSION.merge(bot)
         SESSION.commit()
 

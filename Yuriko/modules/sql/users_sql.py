@@ -1,6 +1,6 @@
 import threading
 
-from Yuriko import dispatcher
+from Yuriko import dispatcher, updater
 from Yuriko.modules.sql import BASE, SESSION
 from Yuriko import pbot as bot
 from Yuriko import pbot
@@ -81,7 +81,7 @@ INSERTION_LOCK = threading.RLock()
 
 def ensure_bot_in_db():
     with INSERTION_LOCK:
-        bot = Users(dispatcher.bot.id, dispatcher.bot.username)
+        bot = Users(updater.bot.id, updater.bot.username)
         SESSION.merge(bot)
         SESSION.commit()
 

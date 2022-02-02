@@ -15,7 +15,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.sql.sqltypes import BigInteger
 BOT_ID = 5270575941
-BOT_USERNAME = 'YumiXBot'
+BOT_USERNAME = '@YumiXBot'
 
 class Users(BASE):
     __tablename__ = "users"

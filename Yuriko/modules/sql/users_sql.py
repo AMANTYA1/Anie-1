@@ -3,6 +3,7 @@ import threading
 from Yuriko import dispatcher
 from Yuriko.modules.sql import BASE, SESSION
 from Yuriko import pbot as bot
+from Yuriko import pbot
 from sqlalchemy import (
     Column,
     ForeignKey,
@@ -79,7 +80,7 @@ INSERTION_LOCK = threading.RLock()
 
 def ensure_bot_in_db():
     with INSERTION_LOCK:
-        bot = Users(dispatcher.bot.id, dispatcher.bot.username)
+        bot = Users(pbot.bot.id, pbot.bot.username)
         SESSION.merge(bot)
         SESSION.commit()
 

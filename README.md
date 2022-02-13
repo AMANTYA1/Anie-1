@@ -22,7 +22,7 @@ The easiest way to deploy this Bot is via Heroku.
 
 
 
-## CREDIT
+## CREDITS
 ```
 BrayDen
 Blaze
